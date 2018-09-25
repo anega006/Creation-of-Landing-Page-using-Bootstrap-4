@@ -131,25 +131,47 @@
                       <div class="h4"><i class="fa fa-paint-brush mb-1 text-info" aria-hidden="true"></i></div> 
                       <h4 class="mb-3 text-center">Enhance your photos</h3>
                       <p>Easily enhance photos with selection of editing tools, filters and effects.</p>
-                      <a href="#" class="btn btn-sm btn-info mt-auto">Read more...</a>
+                      <a href="#" class="btn btn-sm btn-info mt-auto" data-toggle="modal" data-target="#modal1">Read more...</a>
                   </div>
                   <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-4">
                       <div class="h4"><i class="fa fa-video-camera mb-1 text-info" aria-hidden="true"></i></div>
                         <h4 class="mb-3 text-center">Also made for video</h3>
                         <p>With Cameo you get dedicated video effects like slow motion, timelapse and transitions.</p>
-                        <a href="#" class="btn btn-sm btn-info mt-auto">Read more...</a>
+                        <a href="#" class="btn btn-sm btn-info mt-auto" data-toggle="modal" data-target="#modal1">Read more...</a>
                   </div>
                   <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-4">
                       <div class="h4"><i class="fa fa-instagram mb-1 text-info" aria-hidden="true"></i></div>
                         <h4 class="mb-3 text-center">Share on Instagram</h3>
                         <p>You can easily share your photos with your friends and rest of th world on Instagram.</p>
-                        <a href="#" class="btn btn-sm btn-info mt-auto">Read more...</a>
+                        <a href="#" class="btn btn-sm btn-info mt-auto" data-toggle="modal" data-target="#modal1">Read more...</a>
                   </div>
                   <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-4">
                       <div class="h4"><i class="fa fa-mobile mb-1 text-info" aria-hidden="true"></i></div>
                         <h4 class="mb-3 text-center">Works on all devices</h3>
                         <p>Cameo works on all platforms and devices no matter the size of your screen.</p>
-                        <a href="#" class="btn btn-sm btn-info mt-auto">Read more...</a>
+                        <a href="#" class="btn btn-sm btn-info mt-auto" data-toggle="modal" data-target="#modal1">Read more...</a>
+                  </div>
+              </div>
+              <div class="modal fade" id="modal1" aria-labelledby="modalTitle1" aria-hidden="true" tabindex="-1" role="dialog">
+                  <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <h5 class="modal-title" id="modalTitle1">Read less...</h5>
+                              <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                              </button>
+                          </div>
+                          <div class="modal-body">
+                              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                              <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                              <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                              <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+                              <p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+                          </div>
+                          <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          </div>
+                      </div>
                   </div>
               </div>
           </section>
@@ -171,7 +193,7 @@
                               <li class="list-group-item"><i class="fa fa-fw fa-instagram" aria-hidden="true"></i> Share on Instagram</li>
                           </ul>
                           <div class="card-footer text-center">
-                              <a href="#" class="btn btn-success btn-lg">Select plan</a>
+                              <a href="#" class="btn btn-success btn-lg" data-toggle="modal" data-target="#modal2">Select plan</a>
                           </div>
                       </div>
                   </div>
@@ -190,7 +212,7 @@
                               <li class="list-group-item"><i class="fa fa-fw fa-cogs" aria-hidden="true"></i> Advanced settings</li>
                           </ul>
                           <div class="card-footer text-center">
-                              <a href="#" class="btn btn-warning btn-lg">Select plan</a>
+                              <a href="#" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modal2">Select plan</a>
                           </div>
                         </div>
                   </div>
@@ -210,10 +232,29 @@
                               <li class="list-group-item"><i class="fa fa-fw fa-cloud" aria-hidden="true"></i>Cloud storage</li>
                           </ul>
                           <div class="card-footer text-center">
-                              <a href="#" class="btn btn-danger btn-lg">Select plan</a>
+                              <a href="#" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#modal2">Select plan</a>
                           </div>
                         </div>
                   </div>
+              </div>
+              <div class="modal fade" id="modal2" aria-labelledby="modalTitle2" aria-hidden="true" tabindex="-1" role="dialog">
+                  <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <h5 class="modal-title" id="modalTitle2">About the plan</h5>
+                              <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                              </button>
+                          </div>
+                          <div class="modal-body">
+                              <p>Sign up first to select this plan.</p>
+                          </div>
+                          <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
           </section>
           
           <section id="section-reviews">
@@ -288,7 +329,7 @@
                       <div class="form-check">
                           <label class="form-check-label">
                           <input class="form-check-input" id="input-terms" type="checkbox" value="Terms">
-                          I have read and accept the <a href="#" data-toggle="modal" data-target="#modal">terms and conditions</a>.
+                          I have read and accept the <a href="#" data-toggle="modal" data-target="#modal3">terms and conditions</a>.
                           </label>
                       </div>
                       <div class="d-flex justify-content-between">
@@ -297,11 +338,11 @@
                       </div>
                   </div>
               </form>
-              <div class="modal fade" id="modal" aria-labelledby="modalTitle" aria-hidden="true" tabindex="-1" role="dialog">
+              <div class="modal fade" id="modal3" aria-labelledby="modalTitle3" aria-hidden="true" tabindex="-1" role="dialog">
                   <div class="modal-dialog modal-lg" role="document">
                       <div class="modal-content">
                           <div class="modal-header">
-                              <h5 class="modal-title" id="modalTitle">Terms and Conditions</h5>
+                              <h5 class="modal-title" id="modalTitle3">Terms and Conditions</h5>
                               <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                                   <span aria-hidden="true">&times;</span>
                               </button>
@@ -348,11 +389,11 @@
                   <div class="col-6 col-xs-6 col-lg-3">
                       <h6 id="footer3">Follow us</h6>
                       <ul class="list-unstyled">
-                          <li><a href="#"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i> Facebook</a></li>
-                          <li><a href="#"><i class="fa fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
-                          <li><a href="#"><i class="fa fa-fw fa-youtube" aria-hidden="true"></i> Youtube</a></li>
-                          <li><a href="#"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i> Twitter</a></li>
-                          <li><a href="#"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
+                          <li><a target="_blank" href="https://www.facebook.com"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+                          <li><a target="_blank" href="https://www.instagram.com"><i class="fa fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+                          <li><a target="_blank" href="https://www.youtube.com"><i class="fa fa-fw fa-youtube" aria-hidden="true"></i> Youtube</a></li>
+                          <li><a target="_blank" href="https://twitter.com"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+                          <li><a target="_blank" href="https://in.linkedin.com"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
                       </ul>
                   </div>
                   <div class="col-6 col-xs-6 col-lg-3">
