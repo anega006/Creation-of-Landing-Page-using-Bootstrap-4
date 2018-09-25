@@ -1,7 +1,7 @@
 .jumbotron {
   background-image: url('img/background.jpg');
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
   height: 850vh;
   max-height: 100vh;
