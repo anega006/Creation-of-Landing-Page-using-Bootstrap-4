@@ -9,6 +9,9 @@
 section {
   padding-top: 2rem;
 }
+#section-description {
+    padding-top: 1rem;
+}
 #section-newsletter {
   padding-top: 0;
 }
