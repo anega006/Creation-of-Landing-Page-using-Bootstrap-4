@@ -3,7 +3,7 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  height: 85vh;
+  height: 850vh;
   max-height: 100vh;
 }
 section {
@@ -14,6 +14,9 @@ section {
 }
 #section-newsletter {
   padding-top: 0;
+}
+#trailerDiv {
+    max-height: 80vh;
 }
 body {
   font-family: 'Open Sans', sans-serif;
@@ -28,8 +31,12 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
     margin-top: 0.5em;
 }
+.carousel-item {
+    max-height: 90vh;
+}
 .carousel-item img {
   max-width: 100%;
+  object-fit: contain;
 }
 @media(max-width:768px) {
   .jumbotron {
@@ -56,6 +63,7 @@ h2 {
       font-size: 2.5em;
   }
 }
+
 @media (min-width: 768px) {
   body {
     padding-top: 50px !important;
