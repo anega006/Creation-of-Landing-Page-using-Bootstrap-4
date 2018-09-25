@@ -399,6 +399,13 @@
     $(function(){
         var scroll = new SmoothScroll('a[href*="#section-"]');
     });
+    var selectBody = $('body');
+    $('.navbar-collapse').on('show.bs.collapse', function () {
+      selectBody.css('padding-top', '235px');
+    })
+    $('.navbar-collapse').on('hide.bs.collapse', function () {
+      selectBody.css('padding-top', '50px');
+    })
     </script>      
     
           
